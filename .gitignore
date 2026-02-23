@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# Internal / proprietary classes — these are scrapbook references to real codebase files.
+# They exist locally for context but should NOT be committed to the public repo.
+ServiceContainer/private/
